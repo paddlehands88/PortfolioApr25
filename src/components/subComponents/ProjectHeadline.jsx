@@ -40,10 +40,10 @@ function ProjectHeadline({
         {/* MOBILE VIEW (<SM) */}
         <div className="xl:hidden max-w-[760px]">
           <motion.div variants={fadeIn("up", "spring", 0.5, 0.75)}>
-            <Tilt
+            {/* <Tilt
               options={{ max: 45, scale: 1, speed: 450 }}
               className='bg-tertiary p-5 rounded-2xl w-full h-full'
-            >
+            > */}
               <div className='relative w-full min-h-[230px] max-w-[740px]'>
                 <img
                   src={image}
@@ -73,7 +73,7 @@ function ProjectHeadline({
                   </p>
                 ))}
               </div>
-            </Tilt>
+            {/* </Tilt> */}
           </motion.div>
         </div>
 
