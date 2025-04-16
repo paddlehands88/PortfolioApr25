@@ -35,11 +35,11 @@ const Hero = () => {
             <ComputersCanvas />
           </div> */}
 
-          {typeof window !== 'undefined' && window.innerWidth >= 1024 ? (
-            <div className="hidden lg:block lg:w-1/2 lg:h-full">
+          {/* {typeof window !== 'undefined' && window.innerWidth >= 1024 ? (
+            <div className="lg:w-1/2 lg:h-full">
               <ComputersCanvas />
             </div>
-          ) : null}
+          ) : null} */}
           
           {/* STEFAN IMAGE - Maintains current responsive behavior */}
           <div className="flex w-full lg:w-1/2 justify-center sm:justify-end">
