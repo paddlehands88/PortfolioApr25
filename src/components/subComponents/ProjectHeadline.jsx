@@ -34,16 +34,16 @@ function ProjectHeadline({
       {/* HEADLINE CARD COMPONENT */}
       <div 
         onClick={() => window.open("https://bhuk1.vercel.app/", "_blank")}
-        className="mt-10 w-full cursor-pointer"
+        className="mt-10 w-full h-full cursor-pointer"
       >
 
-        {/* MOBILE VIEW (<SM) */}
-        <div className="xl:hidden max-w-[760px]">
+        {/* MOBILE VIEW UP TO XL SCREENS (<XL) */}
+        <div className="xl:hidden w-full h-full max-w-[760px]">
           <motion.div variants={fadeIn("up", "spring", 0.5, 0.75)}>
-            {/* <Tilt
+            <Tilt
               options={{ max: 45, scale: 1, speed: 450 }}
               className='bg-tertiary p-5 rounded-2xl w-full h-full'
-            > */}
+            >
               <div className='relative w-full min-h-[230px] max-w-[740px]'>
                 <img
                   src={image}
@@ -73,11 +73,11 @@ function ProjectHeadline({
                   </p>
                 ))}
               </div>
-            {/* </Tilt> */}
+            </Tilt>
           </motion.div>
         </div>
 
-        {/* DESKTOP VIEW SM+ (full width layout) */}
+        {/* DESKTOP VIEW XL+ (full width layout) */}
         <div className="hidden xl:block">
           <motion.div 
             variants={fadeIn("up", "spring", 0.2, 0.75)}

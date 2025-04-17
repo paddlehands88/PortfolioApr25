@@ -14,9 +14,11 @@ import ProjectHeadline from "./subComponents/ProjectHeadline";
 const Projects = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>what i can do</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
+      <motion.div 
+        variants={textVariant()}
+      >
+        <p className={styles.sectionSubText}>what i can do</p>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
 
       {/* Featured Project */}

@@ -1,7 +1,7 @@
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import { styles } from '../styles';
 
-// import { ComputersCanvas } from './canvas';
+import { ComputersCanvas } from './canvas';
 import { stefKeyboard } from '../assets';
 
 const Hero = () => {
@@ -31,9 +31,9 @@ const Hero = () => {
        {/* STEFAN IMAGE AND CANVAS SECTION */}
        <div className="h-[44rem] px-10 flex flex-col justify-end lg:flex-row lg:justify-between items-end max-w-7xl mx-auto w-full">
           {/* 3D COMPUTERS CANVAS - Only visible on large screens */}
-          {/* <div className="hidden lg:block lg:w-1/2 lg:h-full">
+          <div className="hidden lg:block lg:w-1/2 lg:h-full">
             <ComputersCanvas />
-          </div> */}
+          </div>
 
           {/* {typeof window !== 'undefined' && window.innerWidth >= 1024 ? (
             <div className="lg:w-1/2 lg:h-full">
