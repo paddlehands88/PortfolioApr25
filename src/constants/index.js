@@ -29,6 +29,8 @@ import {
   netflix,
   nike,
   spotify,
+  hivekitchensweb,
+  rainbowkitchensweb,
   northcoders,
 } from "../assets";
 
@@ -426,6 +428,50 @@ const projects = [
     ],
     image: spotify,
     source_code_link: "https://github.com/paddlehands88/music-app-clone",
+  },
+  {
+    name: "Hive Kitchens",
+    description:
+      "Wordpress website for my kitchen company. Conceptualised the Manchester-themed website naming kitchens after Mancunian celebrities or historical figures, and graphics inspired by the Manchester Bee emblem and artists such as L.S. Lowry.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Adobe Photoshop",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Adobe Illustrator",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hivekitchensweb,
+    source_code_link:
+      "https://web.archive.org/web/20161002014035/http://hivekitchens.com/",
+  },
+  {
+    name: "Rainbow Kitchens",
+    description:
+      "For my first kitchen company I conceptualised the name and brand and marketing strategy. I learnt about website design and SEO, and used Adobe Photoshop to design each page.",
+    tags: [
+      {
+        name: "J-Query",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Adobe Photoshop",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Adobe Illustrator",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rainbowkitchensweb,
+    source_code_link:
+      "https://web.archive.org/web/20140817150731/http://www.rainbowkitchens.com/",
   },
 ];
 

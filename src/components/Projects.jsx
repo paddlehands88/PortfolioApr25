@@ -34,7 +34,7 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-16 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following apps are from instructional videos. I've been attracted to the aesthetics and UX and sought to understand the systems and technologies behind them. 
+          The following apps are from instructional videos. I've been attracted to the aesthetics and UX and sought to understand the systems and technologies behind them. Also included are websites I created for my two kitchen companies prior to becoming a Software Developer.
         </motion.p>
       </div>
 

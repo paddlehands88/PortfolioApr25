@@ -37,8 +37,12 @@ import gamehub from "./gamehub.png";
 import netflix from "./netflix.png";
 import nike from "./nike.png";
 import spotify from "./spotify.png";
+import hivekitchensweb from "./hivekitchensweb.png";
+import rainbowkitchensweb from "./rainbowkitchensweb.png";
 
 export {
+  rainbowkitchensweb,
+  hivekitchensweb,
   BHUKheadline,
   stefKeyboard,
   next,
